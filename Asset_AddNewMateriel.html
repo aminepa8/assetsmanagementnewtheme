@@ -14,7 +14,8 @@
       content="This is an example dashboard created using build-in elements and components."
     />
     <meta name="msapplication-tap-highlight" content="no" />
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" integrity="sha512-mSYUmp1HYZDFaVKK//63EcZq4iFWFjxSL+Z3T/aCt4IO9Cejm03q3NKKYN6pFQzY0SBOr8h+eCIAZHPXcpZaNw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--
 =========================================================
 * ArchitectUI HTML Theme Dashboard - v1.0.0
@@ -27,170 +28,10 @@
 -->
     <link href="./main.css" rel="stylesheet" />
     <style type="text/css">
-      /* Chart.js */
-      @-webkit-keyframes chartjs-render-animation {
-        from {
-          opacity: 0.99;
-        }
-        to {
-          opacity: 1;
-        }
+      .datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-top{
+        padding-left: 2%;
       }
-      @keyframes chartjs-render-animation {
-        from {
-          opacity: 0.99;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-      .chartjs-render-monitor {
-        -webkit-animation: chartjs-render-animation 0.001s;
-        animation: chartjs-render-animation 0.001s;
-      }
-    </style>
-    <script
-      type="text/javascript"
-      charset="UTF-8"
-      src="http://maps.google.com/maps-api-v3/api/js/45/5/common.js"
-    ></script>
-    <script
-      type="text/javascript"
-      charset="UTF-8"
-      src="http://maps.google.com/maps-api-v3/api/js/45/5/util.js"
-    ></script>
-    <style type="text/css">
-      /* Chart.js */
-      @-webkit-keyframes chartjs-render-animation {
-        from {
-          opacity: 0.99;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-      @keyframes chartjs-render-animation {
-        from {
-          opacity: 0.99;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-      .chartjs-render-monitor {
-        -webkit-animation: chartjs-render-animation 0.001s;
-        animation: chartjs-render-animation 0.001s;
-      }
-    </style>
-    <script
-      type="text/javascript"
-      charset="UTF-8"
-      src="http://maps.google.com/maps-api-v3/api/js/45/5/common.js"
-    ></script>
-    <script
-      type="text/javascript"
-      charset="UTF-8"
-      src="http://maps.google.com/maps-api-v3/api/js/45/5/util.js"
-    ></script>
-    <style type="text/css">
-      /* Chart.js */
-      @-webkit-keyframes chartjs-render-animation {
-        from {
-          opacity: 0.99;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-      @keyframes chartjs-render-animation {
-        from {
-          opacity: 0.99;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-      .chartjs-render-monitor {
-        -webkit-animation: chartjs-render-animation 0.001s;
-        animation: chartjs-render-animation 0.001s;
-      }
-    </style>
-    <script
-      type="text/javascript"
-      charset="UTF-8"
-      src="http://maps.google.com/maps-api-v3/api/js/45/5/common.js"
-    ></script>
-    <script
-      type="text/javascript"
-      charset="UTF-8"
-      src="http://maps.google.com/maps-api-v3/api/js/45/5/util.js"
-    ></script>
-    <style type="text/css">
-      /* Chart.js */
-      @-webkit-keyframes chartjs-render-animation {
-        from {
-          opacity: 0.99;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-      @keyframes chartjs-render-animation {
-        from {
-          opacity: 0.99;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-      .chartjs-render-monitor {
-        -webkit-animation: chartjs-render-animation 0.001s;
-        animation: chartjs-render-animation 0.001s;
-      }
-    </style>
-    <script
-      type="text/javascript"
-      charset="UTF-8"
-      src="http://maps.google.com/maps-api-v3/api/js/45/5/common.js"
-    ></script>
-    <script
-      type="text/javascript"
-      charset="UTF-8"
-      src="http://maps.google.com/maps-api-v3/api/js/45/5/util.js"
-    ></script>
-    <style type="text/css">
-      /* Chart.js */
-      @-webkit-keyframes chartjs-render-animation {
-        from {
-          opacity: 0.99;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-      @keyframes chartjs-render-animation {
-        from {
-          opacity: 0.99;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-      .chartjs-render-monitor {
-        -webkit-animation: chartjs-render-animation 0.001s;
-        animation: chartjs-render-animation 0.001s;
-      }
-    </style>
-    <script
-      type="text/javascript"
-      charset="UTF-8"
-      src="http://maps.google.com/maps-api-v3/api/js/45/5/common.js"
-    ></script>
-    <script
-      type="text/javascript"
-      charset="UTF-8"
-      src="http://maps.google.com/maps-api-v3/api/js/45/5/util.js"
-    ></script>
+</style>
   </head>
   <body class="vsc-initialized">
     <div
@@ -616,11 +457,15 @@
     </div>
     <script type="text/javascript" src="./assets/scripts/main.js"></script>
 
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
     <script>
     $( function() {
-      $( "#date_livraison" ).datepicker();
+      $( "#date_livraison" ).datepicker({  
+
+format: 'yyyy-mm-dd'  
+
+});
     } );
     </script>
     <div class="jvectormap-tip"></div>
